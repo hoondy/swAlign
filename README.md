@@ -9,13 +9,17 @@ Smith-Waterman Algorithm in Perl
 ### Created:    02/11/2015
 
 ### Included:
-					runSW.pl
-					blosum62.txt
-					input.txt
-					output.txt
+```
+runSW.pl
+blosum62.txt
+input.txt
+output.txt
+```
 
 ### Note: Gap penalties: opening gap -2, extension gap = -1 
 
-### Usage:  perl runSW.pl <input file> <score file>
+### Usage:
+```perl runSW.pl <input file> <score file>```
 
-### Example:  perl runSW.pl input.txt blosum62.txt > output.txt
+### Example:
+```perl runSW.pl input.txt blosum62.txt > output.txt```
